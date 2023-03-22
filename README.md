@@ -1,2 +1,2 @@
-# shapmat_tutorial
-Tutorial for the SHAPMAT library
+# SHAPMAT Tutorial
+Tutorial for the <a href="https://github.com/ryzary/shapmat">SHAPMAT</a> library 
