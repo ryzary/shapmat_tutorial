@@ -1,26 +1,26 @@
 # SHAPMAT Tutorial
 Tutorial for the <a href="https://github.com/ryzary/shapmat">SHAPMAT</a> library 
 
-1. Create and activate a conda environment. Let's name it "microbiome"
-```bash
-conda create -n microbiome python=3.9
-conda activate microbiome
+1. Install Poetry
+- This tutorial uses Poetry for dependency management. For macOS, you can install Poetry using brew:
 ```
+brew install poetry
+```
+For other operating systems, please refer to this [page](https://python-poetry.org/docs/) for Poetry Installation.
 
-2.  Install shapmat and jupyter lab
-```bash
-pip install shapmat
-pip install jupyterlab
-```
-3. Go to your working directory and clone SHAPMAT tutorial repository from github. 
+2. Clone this repository
 ```bash
 git clone https://github.com/ryzary/shapmat_tutorial
 ```
 
-4. Go inside the folder and open jupyter lab.
-```bash
-cd shapmat_tutorial
-jupyter lab
+3. Install the dependencies
+```
+poetry install
 ```
 
-5. You can now use the _tutorial_1.ipynb_ notebook.
+4. Open jupyter lab
+```
+poetry run jupyter lab
+```
+
+5. Now you can use the `tutorial_1.ipynb` notebook.
