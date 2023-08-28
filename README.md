@@ -15,6 +15,7 @@ git clone https://github.com/ryzary/shapmat_tutorial
 
 3. Install the dependencies
 ```
+cd shapmat_tutorial
 poetry install
 ```
 
